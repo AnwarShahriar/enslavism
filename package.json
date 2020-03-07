@@ -29,7 +29,7 @@
     "cookie": "0.x",
     "rollup": "0.x",
     "rollup-plugin-alias": "1.x",
-    "rollup-plugin-eslint": "3.x"
+    "rollup-plugin-eslint": "7.0.0"
   },
   "optionalDependencies": {
     "bufferutil": "1.x",
