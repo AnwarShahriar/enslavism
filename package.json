@@ -29,7 +29,8 @@
     "cookie": "0.x",
     "rollup": "0.x",
     "rollup-plugin-alias": "1.x",
-    "rollup-plugin-eslint": "3.x"
+    "rollup-plugin-eslint": "3.x",
+    "snyk": "^1.316.1"
   },
   "optionalDependencies": {
     "bufferutil": "1.x",
@@ -41,11 +42,14 @@
   },
   "scripts": {
     "test": "node_modules/ava/cli.js tests/",
-    "postinstall": "node bundler.js"
+    "postinstall": "node bundler.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "ava": {
     "require": [
       "babel-register"
     ]
-  }
+  },
+  "snyk": true
 }
