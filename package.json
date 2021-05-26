@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "electron-webrtc": "0.2.x",
-    "ws": "1.x",
+    "ws": "7.4.6",
     "ipaddr.js": "1.x",
     "cookie": "0.x",
     "rollup": "0.x",
