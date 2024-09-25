@@ -27,7 +27,7 @@
     "ws": "1.x",
     "ipaddr.js": "1.x",
     "cookie": "0.x",
-    "rollup": "0.x",
+    "rollup": "3.29.5",
     "rollup-plugin-alias": "1.x",
     "rollup-plugin-eslint": "3.x"
   },
